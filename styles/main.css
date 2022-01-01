@@ -1,3 +1,10 @@
+/* instal fonts */
+
+@font-face {
+    font-family: abrilFat;
+    src: url(../fonts/AbrilFatface-Regular.ttf);
+}
+
 .fitur {
     background: yellow;
 }
@@ -23,6 +30,7 @@ body {
 .header .logo {
     font-size: 32px;
     float: left;
+    font-family: Vujahday Script;
 }
 
 .header .navigation {
@@ -35,9 +43,20 @@ body {
     margin-left: 20px;
     font-size: 18px;
     display: block;
+    font-family: sans-serif;
 }
 
 .header .navigation li a {
     color: #fff;
     text-decoration: none;
 }
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+
+/* .header .navigation li a:visited {
+    color: blue;
+} */
